@@ -1,1 +1,33 @@
 @charset "UTF-8";
+
+            /* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    section {
+        text-align: center;
+        padding: 10px 10px 15px 10px;
+    }
+
+    section > p {
+        font-size: 1.2em;
+    }
+
+    section > h2 {
+        font-size: 1.3em;
+    }
+
+    section > h3 {
+        font-size: 1.2em;
+    }
+
+    section > ul > li {
+        font-size: 1em;
+    }
+}
+
+            /* DESKTOP - TELAS MAIORES */
+@media screen and (min-width: 1025px) {
+    
+    /* ALINHAR AS CAIXAS HORIZONTALMENTE, DIMINUIR A IMAGEM E DEFINIR TAMANHO DO BOTÃO. */
+
+}
