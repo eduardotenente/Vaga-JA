@@ -30,4 +30,40 @@
     
     /* ALINHAR AS CAIXAS HORIZONTALMENTE, DIMINUIR A IMAGEM E DEFINIR TAMANHO DO BOTÃO. */
 
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    section {
+        flex: auto;
+        text-align: center;
+        padding: 15px 10px 15px 10px;
+        margin-right: 10px;
+    }
+
+    section > p {
+        padding: 20px;
+    }
+
+    section > ul > li {
+        padding: 10px;
+    }
+
+    footer > img {
+        width: 15%;
+    }
+
+    footer > p {
+        font-size: 1em;
+    }
+
+    footer > article {
+        height: 25vh;
+    }
+
+    footer > article > a > button {
+        width: 50%;
+        margin-top: 100px;
+    }
 }
